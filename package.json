@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/start.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@types/command-line-args": "^5.0.0",
     "@types/html-to-text": "^1.4.31",
     "@types/node": "^13.1.6",
