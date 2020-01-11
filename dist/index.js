@@ -37,5 +37,7 @@ const loginOption = cmdArgs([{
         type: String,
         defaultOption: true
     }]);
+console.log(process.env.token);
+console.log((loginOption.token || process.env.token));
 client.login(loginOption.token || process.env.token);
 //# sourceMappingURL=index.js.map
